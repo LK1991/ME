@@ -1,0 +1,63 @@
+body {
+    background-image:url(http://img.izifunny.com/pics/2013/20131118/original/izifunnygifdumpnovember19201325gifs_5.gif);
+    background-repeat: repeat;
+} 
+div {
+	color: white;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	padding: 10px 20px 20px 20px;
+}
+
+
+#div{
+	color: black;
+	text-align: center;
+	font-size: 1;
+	margin: 17px 17px 17px 17px;
+}
+
+section {
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	height: 450px;
+	width: 800px;
+	margin: 0 auto;
+	
+}
+
+#section2 {
+	background-color: white;	
+	padding: 20px 20px 20px 20px;
+	height: 500px;
+	width: 800px;
+}
+
+#section3 {
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	height: 500px;
+	width: 800px;
+}
+
+img {
+	padding: 32px 32px 32px 32px;
+}
+
+.border-menu {
+  position: relative;
+  padding-left: 1.25em;
+  color: black;
+  text-align: left;
+}
+.border-menu:before {
+  content: "";
+  position: absolute;
+  top: 0.25em;
+  left: 0;
+  width: 1em;
+  height: 0.125em;
+  border-top: 0.375em double #000;
+  border-bottom: 0.125em solid #000;
+  color: white;
+}
