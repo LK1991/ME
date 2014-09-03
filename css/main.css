@@ -13,8 +13,7 @@ div {
 #div{
 	color: black;
 	text-align: center;
-	font-size: 1;
-	margin: 17px 17px 17px 17px;
+	font-size: 30px;
 }
 
 section {
@@ -29,7 +28,8 @@ section {
 #section2 {
 	background-color: white;	
 	padding: 20px 20px 20px 20px;
-	height: 500px;
+	padding-left: 95px;
+	height: 420px;
 	width: 800px;
 }
 
