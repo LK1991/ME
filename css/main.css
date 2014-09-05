@@ -67,3 +67,7 @@ img {
   border-bottom: 0.125em solid #000;
   color: white;
 }
+
+#slidy-container {
+width: 100%; overflow: hidden;
+}
