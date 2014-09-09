@@ -1,7 +1,7 @@
 body {
-    background-image:url(http://img.izifunny.com/pics/2013/20131118/original/izifunnygifdumpnovember19201325gifs_5.gif);
-    background-repeat: repeat;
-} 
+ 	background-color: black;
+}
+
 div {
 	color: white;
 	font-size: 30px;
@@ -14,11 +14,16 @@ div {
 	color: black;
 	text-align: center;
 	font-size: 30px;
-	text-shadow: 1px 1px 2px #FF00FF;
-    -moz-text-shadow: 1px 1px 2px #FF00FF;
-    -ms-text-shadow: 1px 1px 2px #FF00FF;
-    -o-text-shadow: 1px 1px 2px #FF00FF;
-    -webkit-text-shadow: 1px 1px 2px #FF00FF;
+	text-shadow: 1px 1px 2px black;
+    -moz-text-shadow: 1px 1px 2px black;
+    -ms-text-shadow: 1px 1px 2px black;
+    -o-text-shadow: 1px 1px 2px black;
+    -webkit-text-shadow: 1px 1px 2px black;
+}
+
+#paragraph{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
 }
 
 section {
@@ -42,32 +47,21 @@ section {
 #section3 {
 	background-color: white;
 	padding: 20px 20px 20px 20px;
-	height: 500px;
+	height: 900px;
 	width: 800px;
+	text-shadow: 1px 1px 2px #FF00FF;
+    -moz-text-shadow: 1px 1px 2px #FF00FF;
+    -ms-text-shadow: 1px 1px 2px #FF00FF;
+    -o-text-shadow: 1px 1px 2px #FF00FF;
+    -webkit-text-shadow: 1px 1px 2px #FF00FF;
 }
 
-img {
-	padding: 32px 32px 32px 32px;
+img{
+	padding: 20px 20px 20px 20px;
+	position: relative;
+    left: -38px;
 }
 
-.border-menu {
-  position: relative;
-  padding-left: 1.25em;
-  color: black;
-  text-align: left;
-}
-.border-menu:before {
-  content: "";
-  position: absolute;
-  top: 0.25em;
-  left: 0;
-  width: 1em;
-  height: 0.125em;
-  border-top: 0.375em double #000;
-  border-bottom: 0.125em solid #000;
-  color: white;
-}
-
-#slidy-container {
-width: 100%; overflow: hidden;
+#project{
+	padding-top: 25px;
 }
