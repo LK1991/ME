@@ -1,5 +1,6 @@
 body {
- 	background-color: black;
+ 	background-image: url(http://alienage.gr/wp-content/uploads/2012/07/Classic-Rock-Bands.jpg);
+ 	background-attachment: fixed;
 }
 
 div {
@@ -14,16 +15,22 @@ div {
 	color: black;
 	text-align: center;
 	font-size: 30px;
-	text-shadow: 1px 1px 2px black;
-    -moz-text-shadow: 1px 1px 2px black;
-    -ms-text-shadow: 1px 1px 2px black;
-    -o-text-shadow: 1px 1px 2px black;
-    -webkit-text-shadow: 1px 1px 2px black;
+	text-shadow: 1px 1px 2px white;
+    -moz-text-shadow: 1px 1px 2px white;
+    -ms-text-shadow: 1px 1px 2px white;
+    -o-text-shadow: 1px 1px 2px white;
+    -webkit-text-shadow: 1px 1px 2px white;
 }
 
 #paragraph{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 16px;
+}
+
+#title{
+	font-family: 'Raleway';
+	font-size: 50px;
+	text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
 }
 
 section {
@@ -31,24 +38,26 @@ section {
 	padding: 20px 20px 20px 20px;
 	height: 450px;
 	width: 800px;
-	margin: 0 auto;
-	
+	margin: 0 auto;	
+	opacity: 0.9;
 }
 
 #section2 {
 	background-color: white;	
 	padding: 20px 20px 20px 20px;
 	padding-left: 95px;
-	height: 420px;
+	height: 455px;
 	width: 800px;
+	opacity: 0.9;
 }
 
 
 #section3 {
 	background-color: white;
 	padding: 20px 20px 20px 20px;
-	height: 900px;
+	height: 950px;
 	width: 800px;
+	opacity: 0.9;
 	text-shadow: 1px 1px 2px #FF00FF;
     -moz-text-shadow: 1px 1px 2px #FF00FF;
     -ms-text-shadow: 1px 1px 2px #FF00FF;
@@ -60,8 +69,15 @@ img{
 	padding: 20px 20px 20px 20px;
 	position: relative;
     left: -38px;
+    opacity: 20;
 }
 
 #project{
 	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#img1{
+	position: relative;
+    left: -5px;
 }
