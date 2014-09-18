@@ -10,6 +10,10 @@ div {
 	padding: 10px 20px 20px 20px;
 }
 
+.modal-content{
+	color: black;
+}
+
 
 #div{
 	color: black;
@@ -46,16 +50,15 @@ section {
 	background-color: white;	
 	padding: 20px 20px 20px 20px;
 	padding-left: 95px;
-	height: 455px;
-	width: 800px;
+	height: 450px;
+	width: 726px;
 	opacity: 0.9;
 }
-
 
 #section3 {
 	background-color: white;
 	padding: 20px 20px 20px 20px;
-	height: 1000px;
+	height: 1035px;
 	width: 800px;
 	opacity: 0.9;
 	text-shadow: 1px 1px 2px #FF00FF;
@@ -66,15 +69,13 @@ section {
 }
 
 img{
-	padding: 20px 20px 20px 20px;
+	padding: 14px;
 	position: relative;
     left: -38px;
-    opacity: 20;
 }
 
 #project{
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 30px;
 }
 
 #img1{
