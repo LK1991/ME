@@ -1,5 +1,5 @@
 body {
- 	background-image: url(http://alienage.gr/wp-content/uploads/2012/07/Classic-Rock-Bands.jpg);
+ 	background-image: url(http://fc05.deviantart.net/fs70/f/2013/329/1/c/band_collage_by_imightbeapanda-d6vmqig.png);
  	background-attachment: fixed;
 }
 
@@ -16,9 +16,10 @@ div {
 
 
 #div{
+	font-family: 'Limelight', cursive;
 	color: black;
 	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 	text-shadow: 1px 1px 2px white;
     -moz-text-shadow: 1px 1px 2px white;
     -ms-text-shadow: 1px 1px 2px white;
@@ -32,8 +33,9 @@ div {
 }
 
 #title{
-	font-family: 'Raleway';
-	font-size: 50px;
+	font-family: 'Nosifer', cursive;
+	font-size: 60px;
+	color: white;
 	text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
 }
 
@@ -43,7 +45,6 @@ section {
 	height: 450px;
 	width: 800px;
 	margin: 0 auto;	
-	opacity: 0.9;
 }
 
 #section2 {
@@ -52,15 +53,13 @@ section {
 	padding-left: 95px;
 	height: 450px;
 	width: 800px;
-	opacity: 0.9;
 }
 
 #section3 {
 	background-color: white;
 	padding: 20px 20px 20px 20px;
-	height: 990px;
+	height: 1010px;
 	width: 800px;
-	opacity: 0.9;
 	text-shadow: 1px 1px 2px #FF00FF;
     -moz-text-shadow: 1px 1px 2px #FF00FF;
     -ms-text-shadow: 1px 1px 2px #FF00FF;
@@ -89,6 +88,10 @@ footer{
 	opacity: 0.9;
 	height: 50px;
 	width: 800px;
+}
+ 
+.modal-content{
+	font-size: 20px;
 }
 
 .social { width: 250px; text-align: center; margin: 0 auto; float: right; padding-left: 60px }
