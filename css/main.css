@@ -51,7 +51,7 @@ section {
 	background-color: white;	
 	padding: 20px 20px 20px 20px;
 	padding-left: 95px;
-	height: 450px;
+	height: 520px;
 	width: 800px;
 }
 
@@ -85,13 +85,26 @@ img{
 footer{
 	background-color: white;
 	margin: 0 auto;	
-	opacity: 0.9;
 	height: 50px;
 	width: 800px;
 }
  
 .modal-content{
 	font-size: 20px;
+}
+
+header{
+	text-align: center;
+	font-size: 35px;
+	background-color: white;
+	width: 800px;
+	margin: 0 auto;
+	word-spacing: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#p{
+	word-spacing: 200px;
 }
 
 .social { width: 250px; text-align: center; margin: 0 auto; float: right; padding-left: 60px }
