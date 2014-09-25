@@ -116,6 +116,29 @@ a:hover {
     color: white;
 }
 
+@media only screen and (max-width:320px){
+	#title{
+		width: 100%;
+	}
+	#section{
+		width: 100%;
+		height: 100%;
+	}
+	#section2{
+		width: 100%;
+		height: 100%;
+	}
+	#section3{
+		width: 100%;
+		height: 100%;
+	}
+	header{
+		width: 100%;
+	}
+	#paragraph{
+
+	}
+}
 .social { width: 250px; text-align: center; margin: 0 auto; float: right; padding-left: 60px }
 
 .social ul, li { float: left; display: inline-block; list-style: none; }
@@ -123,55 +146,5 @@ a:hover {
 .social li.twitter a:hover { color: #66ccff; border: 3px solid #66ccff; -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); }
 .social li.facebook a:hover { color: #000077; border: 3px solid #000077; -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {	
-}
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-}
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-}
-
-@media only screen and (min-width: 0px) and (max-width: 767px) { #mainBG { background: url(images/small.jpg) 75% 80% no-repeat scroll !important; background-position:center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; } }
+@media only screen and (min-width: 0px) and (max-width: 767px) { #mainBG { background: url(http://fc05.deviantart.net/fs70/f/2013/329/1/c/band_collage_by_imightbeapanda-d6vmqig.png) 75% 80% no-repeat scroll !important; background-position:center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; } }
