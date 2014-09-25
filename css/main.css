@@ -105,6 +105,15 @@ header{
 
 #p{
 	word-spacing: 200px;
+	text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+}
+
+a{
+	color: black;
+	text-align: center;
+}
+a:hover { 
+    color: white;
 }
 
 .social { width: 250px; text-align: center; margin: 0 auto; float: right; padding-left: 60px }
